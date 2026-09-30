@@ -1,0 +1,115 @@
+name: "AISI 4140"
+standard: "ASTM A29 / SAE J404"
+density_kg_m3: 7850.0
+initial_microstructure: "as-received_hot-rolled_ferrite_pearlite"
+initial_grain_size_um: 25.0
+
+composition:
+  C: 0.40
+  Mn: 0.85
+  Si: 0.25
+  Cr: 0.95
+  Mo: 0.20
+  P: 0.020
+  S: 0.020
+  Fe: 97.31
+
+composition_ranges:
+  C: [0.38, 0.43]
+  Mn: [0.75, 1.00]
+  Si: [0.15, 0.35]
+  Cr: [0.80, 1.10]
+  Mo: [0.15, 0.25]
+  P: [0.000, 0.035]
+  S: [0.000, 0.040]
+  Fe: [96.785, 97.92]
+
+provenance_records:
+  C:
+    name: "Carbon Content"
+    value: 0.40
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1; ASM Handbook Vol 1"
+    source_type: "literature"
+    uncertainty: {"min": 0.38, "max": 0.43, "std": 0.015}
+    applicability: "0.38 - 0.43 wt% for grade 4140"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Primary interstitial element controlling martensite tetragonality and hardness"
+  Mn:
+    name: "Manganese Content"
+    value: 0.85
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1; SAE J404"
+    source_type: "literature"
+    uncertainty: {"min": 0.75, "max": 1.00, "std": 0.06}
+    applicability: "0.75 - 1.00 wt% for grade 4140"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Hardenability enhancer, lowers Ms and pearlite transformation nose"
+  Si:
+    name: "Silicon Content"
+    value: 0.25
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1; SAE J404"
+    source_type: "literature"
+    uncertainty: {"min": 0.15, "max": 0.35, "std": 0.05}
+    applicability: "0.15 - 0.35 wt% for grade 4140"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Deoxidizer, retards cementite precipitation during stage I tempering"
+  Cr:
+    name: "Chromium Content"
+    value: 0.95
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1; SAE J404"
+    source_type: "literature"
+    uncertainty: {"min": 0.80, "max": 1.10, "std": 0.075}
+    applicability: "0.80 - 1.10 wt% for grade 4140"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Strong carbide former, significantly improves hardenability and temper resistance"
+  Mo:
+    name: "Molybdenum Content"
+    value: 0.20
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1; SAE J404"
+    source_type: "literature"
+    uncertainty: {"min": 0.15, "max": 0.25, "std": 0.025}
+    applicability: "0.15 - 0.25 wt% for grade 4140"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Suppresses temper embrittlement, forms fine alloy carbides at high tempering temperatures"
+  P:
+    name: "Phosphorus Maximum"
+    value: 0.020
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1"
+    source_type: "literature"
+    uncertainty: {"min": 0.00, "max": 0.035, "std": 0.005}
+    applicability: "<= 0.035 wt%"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Impurity element segregated to prior austenite grain boundaries"
+  S:
+    name: "Sulfur Maximum"
+    value: 0.020
+    unit: "wt%"
+    source: "ASTM A29/A29M Table 1"
+    source_type: "literature"
+    uncertainty: {"min": 0.00, "max": 0.040, "std": 0.005}
+    applicability: "<= 0.040 wt%"
+    calibration_status: "nominal_specification"
+    validation_status: "VALIDATED"
+    provenance_note: "Forms MnS inclusions, affects transverse ductility and Charpy toughness"
+  Fe:
+    name: "Iron Balance"
+    value: 97.31
+    unit: "wt%"
+    source: "Stoichiometric balance"
+    source_type: "computed"
+    uncertainty: {"min": 96.785, "max": 97.92, "std": 0.15}
+    applicability: "Balance base solvent metal"
+    calibration_status: "exact_balance"
+    validation_status: "VALIDATED"
+    provenance_note: "Matrix solvent element"

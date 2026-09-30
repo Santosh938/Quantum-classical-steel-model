@@ -1,0 +1,29 @@
+treatment_name: "Austempering"
+material_name: "AISI 4140"
+description: "Austenitizing followed by rapid quenching into molten salt at 340 degC, isothermal holding to yield lower/upper bainite."
+stages:
+  - name: "heating"
+    start_temp_c: 25.0
+    target_temp_c: 845.0
+    duration_s: 1800.0
+    regime: "linear"
+  - name: "austenitization_hold"
+    start_temp_c: 845.0
+    target_temp_c: 845.0
+    duration_s: 2400.0
+    regime: "isothermal"
+  - name: "salt_bath_quench"
+    start_temp_c: 845.0
+    target_temp_c: 340.0
+    duration_s: 60.0
+    regime: "newtonian"
+  - name: "isothermal_bainite_hold"
+    start_temp_c: 340.0
+    target_temp_c: 340.0
+    duration_s: 5400.0
+    regime: "isothermal"
+  - name: "final_cooling"
+    start_temp_c: 340.0
+    target_temp_c: 25.0
+    duration_s: 3600.0
+    regime: "newtonian"

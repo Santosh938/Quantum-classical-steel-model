@@ -1,0 +1,9 @@
+### Table_08: Phase_Fractions
+
+| Treatment    |   Ferrite |   Pearlite |   Bainite |   Martensite |   Tempered Mart. |   Retained Aust. |
+|:-------------|----------:|-----------:|----------:|-------------:|-----------------:|-----------------:|
+| Quenching    |      0    |       0    |      0    |         0.94 |             0    |             0.06 |
+| Normalizing  |      0.22 |       0.78 |      0    |         0    |             0    |             0    |
+| Annealing    |      0.25 |       0.75 |      0    |         0    |             0    |             0    |
+| Austempering |      0    |       0    |      0.92 |         0    |             0    |             0.08 |
+| Tempering    |      0    |       0    |      0    |         0    |             0.94 |             0.06 |

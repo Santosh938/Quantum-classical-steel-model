@@ -1,0 +1,35 @@
+{
+  "figure_id": "FIG_008",
+  "title": "Quenching Thermal Trajectory and Cooling Rate for AISI 4140",
+  "description": "Continuous temperature profile T(t) and cooling rate -dT/dt for austenitization and water/oil quench.",
+  "source_data": "analytical_multistage_schedule",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "material": "AISI 4140",
+  "heat_treatment": "Quenching",
+  "temperature_range": [
+    25.0,
+    845.0
+  ],
+  "units": {
+    "time": "minutes",
+    "temperature": "degC",
+    "cooling_rate": "degC/s"
+  },
+  "dpi": 400,
+  "width_in": 3.4,
+  "height_in": 3.8,
+  "width_px": 1362,
+  "height_px": 1465,
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  },
+  "random_seed": 42,
+  "date": "2026-09-19T10:10:54.533923+00:00",
+  "git_commit": "HEAD"
+}

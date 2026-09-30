@@ -1,0 +1,28 @@
+{
+  "figure_id": "FIG_025",
+  "title": "Optimized VQE Circuit",
+  "description": "Bound optimal circuit.",
+  "source_data": "qiskit_circuit_renderer",
+  "material": "AISI 4140",
+  "dpi": 400,
+  "width_in": 19.242,
+  "height_in": 5.15,
+  "width_px": 6006,
+  "height_px": 1666,
+  "circuit_metrics": {
+    "num_qubits": 4,
+    "num_clbits": 0,
+    "circuit_depth": 11,
+    "total_gate_count": 24,
+    "two_qubit_gate_count": 8,
+    "measurement_count": 0
+  },
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  }
+}

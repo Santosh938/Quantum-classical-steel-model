@@ -1,0 +1,35 @@
+{
+  "figure_id": "FIG_010",
+  "title": "AISI 4140 Annealing Thermal History & Rate Trajectory",
+  "description": "Continuous temperature history and rate derivative for Annealing heat treatment.",
+  "source_data": "computed",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "material": "AISI 4140",
+  "heat_treatment": "Annealing",
+  "temperature_range": [
+    25.0,
+    845.0
+  ],
+  "units": {
+    "time": "hours",
+    "temperature": "degC",
+    "cooling_rate": "degC/s"
+  },
+  "dpi": 400,
+  "width_in": 3.4,
+  "height_in": 3.8,
+  "width_px": 1364,
+  "height_px": 1465,
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  },
+  "random_seed": 42,
+  "date": "2026-09-19T10:32:03.341576+00:00",
+  "git_commit": "HEAD"
+}

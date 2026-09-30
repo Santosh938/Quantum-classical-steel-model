@@ -1,0 +1,7 @@
+### Table_13: Model_Comparison
+
+| Model Branch                       |   HV MAE |   UTS MAE (MPa) |     R2 |   Runtime (s) | Scientific Status                            |
+|:-----------------------------------|---------:|----------------:|-------:|--------------:|:---------------------------------------------|
+| Classical Metallurgical Model      |     12.8 |            38.5 | 0.9821 |         0.045 | Independently Validated                      |
+| Quantum Model Only (Reduced-Order) |     44.2 |           142   | 0.812  |         1.25  | Qualitative Order Parameter                  |
+| Classical-Quantum Hybrid Model     |     12.1 |            36.2 | 0.9845 |         1.305 | Marginal Statistically Uncertain Improvement |

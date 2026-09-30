@@ -1,0 +1,31 @@
+{
+  "figure_id": "FIG_035",
+  "title": "Microstructure Grain Size and Dislocation Density Comparison",
+  "description": "Effective crystallographic packet size and dislocation density evolution across all 5 heat treatments.",
+  "source_data": "computed",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "material": "AISI 4140",
+  "heat_treatment": null,
+  "temperature_range": null,
+  "units": {
+    "grain_size": "um",
+    "dislocation_density": "m^-2"
+  },
+  "dpi": 400,
+  "width_in": 6.9,
+  "height_in": 3.8,
+  "width_px": 2495,
+  "height_px": 1493,
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  },
+  "random_seed": 42,
+  "date": "2026-09-19T10:32:04.713481+00:00",
+  "git_commit": "HEAD"
+}

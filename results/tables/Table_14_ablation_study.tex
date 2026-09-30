@@ -1,0 +1,13 @@
+% Table_14: Ablation_Study
+\begin{tabular}{llrrrr}
+\toprule
+Exp ID & Configuration & MAE (HV) & RMSE (HV) & R2 & Cost (s) \\
+\midrule
+A & Classical Only & 12.800000 & 15.400000 & 0.982100 & 0.045000 \\
+B & Classical + VQE Ground Energy E0 & 12.600000 & 15.100000 & 0.982800 & 1.120000 \\
+C & Classical + Local Magnetization <Z_i> & 12.500000 & 14.900000 & 0.983200 & 1.150000 \\
+D & Classical + Pair Correlations <Z_i Z_j> & 12.300000 & 14.700000 & 0.983900 & 1.200000 \\
+E & Classical + All Quantum Descriptors & 12.100000 & 14.400000 & 0.984500 & 1.305000 \\
+F & Hybrid (Coupled Physics Formulation) & 12.100000 & 14.400000 & 0.984500 & 1.305000 \\
+\bottomrule
+\end{tabular}

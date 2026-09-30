@@ -1,0 +1,6 @@
+Circuit,Qubits,Depth,Total Gates,2-Qubit Gates
+Q1: State Prep,4,1,4,0
+Q2: Hardware Efficient,4,7,20,8
+Q3: Problem Inspired,4,9,22,6
+Q4: Measurement,4,8,24,8
+Q5: Complete VQE,4,9,28,8

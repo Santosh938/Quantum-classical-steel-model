@@ -1,0 +1,30 @@
+{
+  "figure_id": "FIG_029",
+  "title": "Two-Domain Spatial Pair Correlations",
+  "description": "Two-point correlation tensors quantifying cooperative inter-domain transformation coupling.",
+  "source_data": "computed",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "material": "AISI 4140",
+  "heat_treatment": null,
+  "temperature_range": null,
+  "units": {
+    "correlation": "dimensionless"
+  },
+  "dpi": 400,
+  "width_in": 3.4,
+  "height_in": 2.8,
+  "width_px": 1420,
+  "height_px": 1146,
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  },
+  "random_seed": 42,
+  "date": "2026-09-19T10:32:10.163637+00:00",
+  "git_commit": "HEAD"
+}

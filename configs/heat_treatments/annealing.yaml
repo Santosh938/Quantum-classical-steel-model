@@ -1,0 +1,19 @@
+treatment_name: "Annealing"
+material_name: "AISI 4140"
+description: "Full annealing with slow furnace cooling to produce coarse pearlite and ferrite for maximum softness."
+stages:
+  - name: "heating"
+    start_temp_c: 25.0
+    target_temp_c: 845.0
+    duration_s: 2400.0
+    regime: "linear"
+  - name: "austenitization_hold"
+    start_temp_c: 845.0
+    target_temp_c: 845.0
+    duration_s: 3600.0
+    regime: "isothermal"
+  - name: "furnace_cooling"
+    start_temp_c: 845.0
+    target_temp_c: 25.0
+    duration_s: 28800.0
+    regime: "linear"

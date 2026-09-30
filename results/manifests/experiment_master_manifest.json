@@ -1,0 +1,42 @@
+{
+  "experiment_id": "EXP_MASTER_FULL_SUITE",
+  "timestamp": "2026-09-19T10:32:12.051946+00:00",
+  "material": "AISI 4140",
+  "composition": {
+    "C": 0.4,
+    "Mn": 0.85,
+    "Si": 0.25,
+    "Cr": 0.95,
+    "Mo": 0.2,
+    "P": 0.02,
+    "S": 0.02,
+    "Fe": 97.31
+  },
+  "heat_treatment": "All_Five_Treatments",
+  "thermal_history_source": "synthetic_and_dilatometry_calibrated",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "random_seed": 42,
+  "python_version": "3.14.6",
+  "numpy_version": "2.5.2",
+  "scipy_version": "1.18.0",
+  "qiskit_version": "2.5.2",
+  "qiskit_aer_version": "0.17.2",
+  "backend": "statevector_simulator",
+  "qubits": 4,
+  "ansatz": "hardware_efficient_real_amplitudes",
+  "optimizer": "COBYLA",
+  "shots": null,
+  "noise_model": null,
+  "git_commit": "HEAD",
+  "results_summary": {
+    "figures_generated": 46,
+    "tables_generated": 15,
+    "figure_quality": "PASSED_ALL_DPI_GE_350",
+    "classical_r2": 0.9821,
+    "quantum_r2": 0.812,
+    "hybrid_r2": 0.9845,
+    "delta_r2": 0.0024,
+    "conclusion": "Classical model scientifically validated; quantum contribution marginal/uncertain"
+  }
+}

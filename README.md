@@ -1,0 +1,80 @@
+# Classical–Quantum Steel Heat-Treatment, Phase-Transformation, Microstructure, and Property Prediction Framework (`steelcq`)
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Qiskit 1.0+](https://img.shields.io/badge/qiskit-1.0+-blueviolet.svg)](https://qiskit.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+A research-grade, validation-first, modular Python framework investigating whether physically motivated Variational Quantum Eigensolver (VQE) representations provide scientifically useful information for modeling heat-treatment phase transformations, microstructure, and properties of steel beyond independently validated classical metallurgical models.
+
+---
+
+## Central Research Question
+> *Can a physically motivated VQE-based quantum representation provide scientifically useful information for modelling heat-treatment-induced phase transformations, microstructure, and material properties of steel beyond an independently validated classical metallurgical model?*
+
+The framework does **not** assume quantum superiority: scientific conclusions (improvement, parity, degradation, or statistically uncertain contribution) emerge directly from classical vs quantum vs hybrid validation, ablation studies, and uncertainty propagation.
+
+---
+
+## Supported Heat Treatments (AISI 4140)
+1. **Quenching**: Austenitization, rapid cooling below $M_s$ and $M_f$, formation of lath martensite and retained austenite.
+2. **Normalizing**: Austenitization and air cooling to proeutectoid ferrite and fine pearlite.
+3. **Annealing**: Austenitization and slow furnace cooling to equilibrium proeutectoid ferrite and coarse pearlite.
+4. **Austempering**: Rapid quench to an isothermal salt bath above $M_s$, holding for complete bainitic transformation, and final cooling.
+5. **Tempering**: Quenching followed by reheating to 200–650 °C, carbide coarsening, dislocation recovery, and conversion to tempered martensite.
+
+---
+
+## Master Architecture
+```text
+INPUT (Composition, Initial State, Process Parameters)
+  ↓
+DATA / PROVENANCE / QUALITY CONTROL
+  ↓
+THERMODYNAMIC LAYER (Ac1, Ac3, Ms, Mf, Bs, Bf)
+  ↓
+AUSTENITIZATION (T(t), f_gamma(t), Grain Growth)
+  ↓
+THERMAL HISTORY ENGINE (Continuous T(t), dT/dt)
+  ├────────────────────────┬────────────────────────┐
+  ↓                                                 ↓
+CLASSICAL MODEL (TTT/CCT, JMAK, KM, Tempering)   QUANTUM MODEL (State Encoding,
+  │                                                Lattice Hamiltonian, Ansätze,
+  │                                                VQE, Quantum Observables)
+  └────────────────────────┬────────────────────────┘
+                           ↓
+               PHASE TRANSFORMATION ENGINE (sum f_i = 1.0)
+                           ↓
+               MICROSTRUCTURE STATE (Grain size, Dislocation density, Retained austenite)
+                           ↓
+               PROPERTY MODELS (HV, Yield Strength, UTS, Elongation, Toughness, Thermal/Electrical)
+                           ↓
+               MONTE CARLO UNCERTAINTY PROPAGATION
+                           ↓
+               VALIDATION ENGINE (Literature & Experimental Parity)
+                           ↓
+               ABLATION & BENCHMARKING (Classical vs Quantum vs Hybrid)
+                           ↓
+               SCIENTIFIC CONCLUSION & PUBLICATION REPORT (>= 350 DPI Figures)
+```
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/materials-quantum/steelcq.git
+cd steelcq
+pip install -e .
+```
+
+---
+
+## Quickstart CLI
+
+```bash
+# Run minimal Phase 1 verification demo
+python -m steelcq.pipeline.cli demo
+
+# Run full heat-treatment suite
+python -m steelcq.pipeline.cli run-all
+```

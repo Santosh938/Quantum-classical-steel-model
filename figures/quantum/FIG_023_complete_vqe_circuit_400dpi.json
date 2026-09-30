@@ -1,0 +1,28 @@
+{
+  "figure_id": "FIG_023",
+  "title": "Complete VQE Circuit",
+  "description": "Complete circuit.",
+  "source_data": "qiskit_circuit_renderer",
+  "material": "AISI 4140",
+  "dpi": 400,
+  "width_in": 26.266,
+  "height_in": 6.321,
+  "width_px": 8169,
+  "height_px": 2026,
+  "circuit_metrics": {
+    "num_qubits": 4,
+    "num_clbits": 4,
+    "circuit_depth": 13,
+    "total_gate_count": 32,
+    "two_qubit_gate_count": 8,
+    "measurement_count": 4
+  },
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  }
+}

@@ -1,0 +1,6 @@
+Parameter,Configuration,Parameter Count,Max Iterations,Shots,Error Rates
+Ansatz,Hardware-Efficient (RealAmplitudes / Ry-CZ),12.0,,,
+Optimizer,COBYLA,,150.0,,
+Ideal Backend,StatevectorSimulator (Exact),,,N/A,
+Shot-Based Backend,AerSimulator,,,2048,
+Noisy Backend,AerSimulator with Depolarizing + Readout Error,,,,"p_depol=0.005, p_ro=0.015"

@@ -1,0 +1,30 @@
+{
+  "figure_id": "FIG_002",
+  "title": "AISI 4140 Alloying Composition and ASTM A29 Ranges",
+  "description": "Nominal concentrations and tolerance ranges for key alloying elements in AISI 4140 steel.",
+  "source_data": "computed",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "material": "AISI 4140",
+  "heat_treatment": null,
+  "temperature_range": null,
+  "units": {
+    "concentration": "wt%"
+  },
+  "dpi": 400,
+  "width_in": 3.4,
+  "height_in": 2.8,
+  "width_px": 1638,
+  "height_px": 1082,
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  },
+  "random_seed": 42,
+  "date": "2026-09-19T10:32:02.223724+00:00",
+  "git_commit": "HEAD"
+}

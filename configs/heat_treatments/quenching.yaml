@@ -1,0 +1,19 @@
+treatment_name: "Quenching"
+material_name: "AISI 4140"
+description: "Rapid quenching from austenitization temperature in oil/water to form hard lath martensite."
+stages:
+  - name: "heating"
+    start_temp_c: 25.0
+    target_temp_c: 845.0
+    duration_s: 1800.0
+    regime: "linear"
+  - name: "austenitization_hold"
+    start_temp_c: 845.0
+    target_temp_c: 845.0
+    duration_s: 2400.0
+    regime: "isothermal"
+  - name: "quenching"
+    start_temp_c: 845.0
+    target_temp_c: 25.0
+    duration_s: 120.0
+    regime: "newtonian"

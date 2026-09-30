@@ -1,0 +1,5 @@
+Term,Formula,Physical Meaning,Unit,Value
+Chemical Field h(T),0.008 * (T - T0),Chemical free energy driving force,arb. energy,
+Interfacial Coupling J,,Interfacial boundary energy penalty,arb. energy,0.8
+Constraint Lambda,,Macroscopic target fraction constraint weight,arb. energy,2.5
+Cluster Size N,,2x2 mesoscopic domain cluster,qubits,4.0

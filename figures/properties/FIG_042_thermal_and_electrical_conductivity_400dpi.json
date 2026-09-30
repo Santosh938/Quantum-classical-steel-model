@@ -1,0 +1,31 @@
+{
+  "figure_id": "FIG_042",
+  "title": "Thermal and Electrical Conductivity across 5 Heat Treatments",
+  "description": "Transport properties calculated from constituent phase mixtures and dislocation/defect scattering.",
+  "source_data": "computed",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "material": "AISI 4140",
+  "heat_treatment": null,
+  "temperature_range": null,
+  "units": {
+    "thermal_k": "W/(m*K)",
+    "electrical_sigma": "10^6 S/m"
+  },
+  "dpi": 400,
+  "width_in": 6.9,
+  "height_in": 3.8,
+  "width_px": 2369,
+  "height_px": 1517,
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  },
+  "random_seed": 42,
+  "date": "2026-09-19T10:32:05.461823+00:00",
+  "git_commit": "HEAD"
+}

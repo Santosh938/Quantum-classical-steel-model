@@ -1,0 +1,28 @@
+{
+  "figure_id": "Q3",
+  "title": "Problem-Inspired Subspace Ansatz",
+  "description": "Excitation-preserving Givens rotations conserving transformation subspace order parameter.",
+  "source_data": "qiskit_circuit_renderer",
+  "material": "AISI 4140",
+  "dpi": 400,
+  "width_in": 15.731,
+  "height_in": 5.15,
+  "width_px": 4924,
+  "height_px": 1666,
+  "circuit_metrics": {
+    "num_qubits": 4,
+    "num_clbits": 0,
+    "circuit_depth": 10,
+    "total_gate_count": 15,
+    "two_qubit_gate_count": 6,
+    "measurement_count": 0
+  },
+  "software_versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pydantic": "2.13.4",
+    "qiskit": "2.5.2"
+  }
+}

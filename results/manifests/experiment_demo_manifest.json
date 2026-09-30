@@ -1,0 +1,38 @@
+{
+  "experiment_id": "EXP_DEMO_PHASE1",
+  "timestamp": "2026-09-19T10:10:54.587327+00:00",
+  "material": "AISI 4140",
+  "composition": {
+    "C": 0.4,
+    "Mn": 0.85,
+    "Si": 0.25,
+    "Cr": 0.95,
+    "Mo": 0.2,
+    "P": 0.02,
+    "S": 0.02,
+    "Fe": 97.31
+  },
+  "heat_treatment": "Quenching",
+  "thermal_history_source": "synthetic_schedule:Quenching",
+  "model_version": "0.1.0",
+  "parameter_version": "2026.1",
+  "random_seed": 42,
+  "python_version": "3.14.6",
+  "numpy_version": "2.5.2",
+  "scipy_version": "1.18.0",
+  "qiskit_version": "2.5.2",
+  "qiskit_aer_version": "0.17.2",
+  "backend": "statevector_simulator",
+  "qubits": 4,
+  "ansatz": "hardware_efficient_real_amplitudes",
+  "optimizer": "COBYLA",
+  "shots": null,
+  "noise_model": null,
+  "git_commit": "HEAD",
+  "results_summary": {
+    "duration_s": 4320.0,
+    "max_temp_c": 845.0,
+    "min_temp_c": 25.0,
+    "figure_validation": "PASSED"
+  }
+}

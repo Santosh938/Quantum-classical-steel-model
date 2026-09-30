@@ -1,0 +1,19 @@
+treatment_name: "Normalizing"
+material_name: "AISI 4140"
+description: "Austenitizing at 870 degC followed by still-air cooling to produce fine ferrite and pearlite."
+stages:
+  - name: "heating"
+    start_temp_c: 25.0
+    target_temp_c: 870.0
+    duration_s: 2100.0
+    regime: "linear"
+  - name: "austenitization_hold"
+    start_temp_c: 870.0
+    target_temp_c: 870.0
+    duration_s: 2400.0
+    regime: "isothermal"
+  - name: "air_cooling"
+    start_temp_c: 870.0
+    target_temp_c: 25.0
+    duration_s: 3600.0
+    regime: "newtonian"

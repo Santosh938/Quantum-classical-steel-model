@@ -1,0 +1,12 @@
+% Table_15: Computational_Cost
+\begin{tabular}{llrrrrrr}
+\toprule
+Paradigm & Execution Platform & Qubits & Circuit Depth & Gate Count & Iterations & Runtime (s) & Memory (MB) \\
+\midrule
+Classical Kinetics & CPU (Single Core) & 0 & 0 & 0 & 150 & 0.045000 & 18.500000 \\
+Quantum VQE (Ideal) & Qiskit Statevector & 4 & 7 & 20 & 80 & 0.820000 & 38.000000 \\
+Quantum VQE (Shots=2048) & Qiskit Aer Simulator & 4 & 7 & 20 & 80 & 1.450000 & 44.000000 \\
+Quantum VQE (Noisy Aer) & Qiskit Aer Noise Model & 4 & 7 & 20 & 80 & 1.820000 & 46.500000 \\
+Hybrid Workflow & Combined Classical + VQE & 4 & 7 & 20 & 230 & 1.865000 & 52.000000 \\
+\bottomrule
+\end{tabular}

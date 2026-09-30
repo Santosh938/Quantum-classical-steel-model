@@ -1,0 +1,34 @@
+treatment_name: "Tempering"
+material_name: "AISI 4140"
+description: "Quenching to martensite followed by reheating to 550 degC, 2 hr hold, and air cooling to yield tempered martensite."
+stages:
+  - name: "heating"
+    start_temp_c: 25.0
+    target_temp_c: 845.0
+    duration_s: 1800.0
+    regime: "linear"
+  - name: "austenitization_hold"
+    start_temp_c: 845.0
+    target_temp_c: 845.0
+    duration_s: 2400.0
+    regime: "isothermal"
+  - name: "quench_to_martensite"
+    start_temp_c: 845.0
+    target_temp_c: 25.0
+    duration_s: 120.0
+    regime: "newtonian"
+  - name: "reheating_to_temper"
+    start_temp_c: 25.0
+    target_temp_c: 550.0
+    duration_s: 1200.0
+    regime: "linear"
+  - name: "tempering_hold"
+    start_temp_c: 550.0
+    target_temp_c: 550.0
+    duration_s: 7200.0
+    regime: "isothermal"
+  - name: "final_cooling"
+    start_temp_c: 550.0
+    target_temp_c: 25.0
+    duration_s: 3600.0
+    regime: "newtonian"
